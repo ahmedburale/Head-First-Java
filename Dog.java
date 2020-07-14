@@ -15,9 +15,9 @@ class DogTestDrive {
  // a main method 
  public static void main (String [] args){
     // Dog test code goes here
-    Dog d = new Dog(); // Make a Dog object 
+    Dog d = new Dog(); // Make a new Dog object 
     d.size = 40; // use the dot operator (.) to set the size of the Dog
-    d.bark(); // and to call its bark method. 
+    d.bark(); // and to call its bark method - tells it to bark by using the dot operator on the variable d to call bark()
   }
 
 }
